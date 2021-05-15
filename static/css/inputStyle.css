@@ -1,0 +1,57 @@
+h1{
+	text-align: center;
+	color: #8b0304;
+}
+
+h3, h4, p {
+	text-align: left;
+    margin: 10px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.body-item {
+    margin: 5px;
+    padding: 10px;
+} 
+
+.item-label {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.item {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#submit-leave-request {
+    background-color: #3498DB;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: inherit;
+}
+
+#submit-leave-request:hover {
+    background-color: deepskyblue;
+}
+
+#leave-apply-field {
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    border-color: lightgray;
+}
+
+.center-item {
+    text-align: center;
+}

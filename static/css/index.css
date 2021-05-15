@@ -1,0 +1,56 @@
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    color: #212121;
+}
+
+.main-body {
+    width: 95%;
+    height: 100%;
+    margin: 25px;
+    padding: 15px;
+}
+
+.main-content {
+    float: left;
+    width: 65%;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.hotlink-bar {
+    float: right;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.hotlink-field {
+    margin: auto;
+    border-color: #616161;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+/*    box-shadow: 2.5px 5px #bdbdbd;*/
+}
+
+.hotlink-field legend {
+    font-size: 15px;
+    color: #424242;
+    padding: 10px;
+}

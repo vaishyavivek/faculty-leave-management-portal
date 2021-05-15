@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>
+		PCE: Faculty Leave Management Portal
+	</TITLE>
+	<link rel="stylesheet" type="text/css" href="static/css/homepage.css">
+    
+</HEAD>
+
+
+<BODY>
+    
+    <header class="header-main">
+        <img class="header-logo" src="static/images/PCElogo.png">
+        
+        <div class="header">
+            <div id="header-menu">
+                <li class="header-item"><a href="#">How to</a></li>
+                <li class="header-item"><a href="#">Student Access</a></li>
+                <li class="header-item"><a href="#">Faculty Access</a></li>
+                <li class="header-item"><a href="#">Home</a></li>
+            </div>
+            
+            <div id="header-login">
+                <li id="header-login-item"><a href="#">Login</a></li>
+                <li id="header-signup-item"><a href="#">Sign up</a></li>
+            </div>
+        </div>
+        
+    </header>
+    
+    <div>
+        <ul class="dropdown-menu-bar">
+            <li class="dropdown">
+                <button id="profileBtn" class="dropButton" onclick="showDropdownMenu('profile')">Profile ⏷</button>
+                <div id="profile" class="dropdown-content">
+                    <a class="dropdown-item" href="#">See your profile</a>
+                    <a class="dropdown-item" href="#">Update</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button id="calanderBtn" class="dropButton" onclick="showDropdownMenu('calander')">Calander ⏷</button>
+                <div id="calander" class="dropdown-content">
+                    <a class="dropdown-item" href="#">See Term Calender</a>
+                    <a class="dropdown-item" href="#">Apply for a leave</a>
+                    <a class="dropdown-item" href="#">Manage your leaves</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button id="attendenceBtn" class="dropButton" onclick="showDropdownMenu('attendence')">Attendence ⏷</button>
+                <div id="attendence" class="dropdown-content">
+                    <a class="dropdown-item" href="#">Mark student attendence</a>
+                    <a class="dropdown-item" href="#">Mark your attendence</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="main-body">
+        <h3>Applying For a Leave</h3>
+        
+        <div class="body-item">
+            <label for="date">Date Selected</label>
+            <input type="date">
+        </div>
+        
+        <div class="body-item">
+            <label for="day-count">Requesting leave for</label>
+            <input type="number" min="1" max="30" value="1">
+            <label >Days</label>
+        </div>
+        
+        <div class="body-item">
+            <label for="reason">Type in your reason for applying for leave</label>
+            <textarea id="reason-text"></textarea> 
+        </div>
+    </div>
+    
+    <script src="static/js/handle.js">    </script>
+</BODY>
+
+</HTML>

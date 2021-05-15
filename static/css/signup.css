@@ -1,0 +1,275 @@
+html, body {
+    width: 97%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    background-color: transparent;
+    margin: auto;
+    padding: 50px;
+}
+
+.background {
+    background-image: url('../images/signup-bg.png');
+    position: absolute;
+    display: inline-block;
+    overflow: auto;
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    //background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-field {
+    margin: auto;
+    border-color: #e0e0e0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 352px;
+    height: auto;
+    box-shadow: 2.5px 5px #bdbdbd;
+}
+
+.logo-out {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 0px;
+    height: 60px;
+    width: 150px;
+}
+
+.pce {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: hind;
+    font-size: 20px;
+    color: #ffa726;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.avkash {
+    text-align: center;
+    padding-left: 10px;
+    margin: 0;
+    font-family: ubuntu;
+    font-size: 40px;
+    line-height: 20%;
+    color: #26a69a;
+}
+
+.logo {
+    text-align: center;
+    margin: auto;
+    width: inherit;
+    height: 50px;
+    padding: 15px;
+    padding-bottom: 0px;
+    font-family: hind;
+    font-size: 50px;
+    font-weight: 800;
+    color: #26a69a;
+}
+
+.header {
+    width: inherit;
+    height: 75px;
+    padding: 15px;
+}
+
+h1{
+	text-align: center;
+    padding: 8px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+h3{
+    text-align: center;
+    padding: 8px;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    color: transparent;
+    border: none;
+    width: auto;
+    height: 60px;
+}
+
+.inputbox-outline {
+    z-index: 0;
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    height: 30px;
+    border-color: #e0e0e0;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    color: #757575;
+    font-size: 14px;
+}
+
+.inputbox-outline > legend {
+    padding: 0px 10px;
+}
+
+.inputfield {
+    z-index: 1;
+    position: absolute;
+    margin: 20px 10px;
+    padding: 0px 4px;
+    width: 88%;
+    height: 22px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.inputbox:hover .inputbox-outline{
+    border-color: #2196f3;
+    color: #2196f3;
+}
+
+.inputfield:focus + .inputbox-outline{
+    border-color: #1976d2;
+    color: #1976d2;
+}
+
+.error-message {
+    /*font-family: roboto;*/
+    font-size: 14px;
+    color: #f44336;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    padding-left: 20px;
+    height: 5px;
+}
+
+
+.name {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.ext-link {
+    background-color: transparent;
+    border-radius: 4px;
+    color: #0288d1;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .25px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: inherit;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.ext-link:hover,
+.ext-link:active{
+    color: #2196f3;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1976d2;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 90px;
+    height: 30px;
+    /*font-family: arial;*/
+    font-size: 14px;
+    font-weight: 550;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+button:focus,
+button:hover {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+button:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+button:disabled {
+    background-color: #616161;
+}
+
+.country-code {
+    position: absolute;
+    margin: 20px 0px 25px 20px;
+    padding: 10px 0px 10px 10px;
+    width: 30px;
+    background-color: #e0e0e0;
+    border-color: #bdbdbd;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.backbtn {
+    visibility: hidden;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.terms {
+    margin: auto;
+    text-align: center;
+    margin-left: 225px;
+    padding-top: 15px;
+}
+
+.terms a {
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.terms a:hover {
+    font-weight: 600;
+}
+
+.page1 {
+    animation: width 300ms ease-in-out;
+}

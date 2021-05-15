@@ -1,0 +1,169 @@
+html, body {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+/*BEGIN Header Styles*/
+
+.logo-out {
+    margin: auto;
+    padding: 25px;
+    padding-top: 20px;
+    height: 75px;
+    float: left;
+    width: auto;
+    padding-left: 30px;
+}
+
+.pce {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: hind;
+    font-size: 30px;
+    color: #ffa726;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.avkash {
+    text-align: center;
+    padding-left: 10px;
+    margin: 0;
+    font-family: ubuntu;
+    font-size: 60px;
+    line-height: 20%;
+    color: #26a69a;
+}
+
+.header-main {
+    background-color: #fafafa;
+    overflow: hidden;
+    box-shadow: 0 8px 6px -6px #212121;
+    height: 120px;
+}
+
+.header {
+    float: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+}
+
+#header-menu {
+    height: 40px;
+}
+
+.header-item {
+    float: right;
+}
+
+.header-item a{
+    display: block;
+    background-color: transparent;
+    color: #212121;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.header-item a:hover{
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+#header-login {
+    margin-top: 5px;
+    padding: 5px;
+    height: 40px;
+}
+
+#header-signup-item a {
+    float: right;
+    display: block;
+    background-color: #29b6f6;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: inherit;
+    font-weight: 500;
+}
+
+#header-signup-item a:hover {
+    background-color: #42a5f5;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+#header-login-item a {
+    float: right;
+    display: block;
+    background-color: transparent;
+    color: #212121;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    height: inherit;
+    font-weight: 500;
+}
+
+#header-login-item a:hover {
+    color: #42a5f5;
+}
+
+/*ENDS*/
+
+
+/*BEGIN Dropdown Menu Styles*/
+.dropdown-menu-bar {
+    margin-top: 10px;
+    list-style-type: none;
+    height: 50px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropButton {
+    float: left;
+    background-color: #3498DB;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: inherit;
+}
+
+.dropButton:hover {
+    background-color: deepskyblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: lightgray;
+}
+
+/*ENDS*/

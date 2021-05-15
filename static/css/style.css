@@ -1,0 +1,42 @@
+.site-header {
+	background-image: url("static/images/PCElogo.png");
+    background-repeat: repeat;
+    background: #8b0304;
+    padding: 0px 0px;
+	height: 20%;
+}
+
+h1{
+	text-align: center;
+	color: #8b0304;
+}
+
+h3, h4, p {
+	text-align: center;
+}
+
+.login-btn {
+	color: white;
+	background: #8b0304;
+	height: 35px;
+}
+
+.login-btn: hover{
+	background-color: gray;
+}
+
+.list-title {
+    text-align: center;
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    text-align: center;
+    list-style-type: armenian;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
